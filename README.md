@@ -5,7 +5,7 @@ When searching a query on [wikipedia.org](https://www.wikipedia.org/), recursive
 
     input -> "Alan Watts"
 
-    output -> "Alan_Watts -> Buddhism -> American_English -> Variety_(linguistics) -> Sociolinguistics -> Society -> Social_group -> Social_science -> Branches_of_science -> Science -> Latin_language -> Classical_language -> Language -> Communication -> Academic_discipline -> Knowledge -> Fact -> Experience -> Consciousness -> Sentience -> Emotion -> Mental_state -> Mind -> Thought -> Ideas -> Philosophy"
+    output -> "Alan Watts -> Buddhism -> American_English -> Variety_(linguistics) -> Sociolinguistics -> Society -> Social_group -> Social_science -> Branches_of_science -> Science -> Latin_language -> Classical_language -> Language -> Communication -> Academic_discipline -> Knowledge -> Fact -> Experience -> Consciousness -> Sentience -> Emotion -> Mental_state -> Mind -> Thought -> Ideas -> Philosophy"
 
 ---
 
