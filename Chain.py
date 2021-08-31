@@ -46,4 +46,5 @@ def chain(query):
 if __name__ == "__main__":
     while True:
         chain(input())
+        print()
 # TODO: add cycle detection for examples like chain("s'more")
