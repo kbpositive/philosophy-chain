@@ -30,44 +30,18 @@ def children(request):
 
 
 def chain(query):
-    print(query)
+    words = [f"{query} -> "]
     cur = children(requests.get(f"https://en.wikipedia.org/wiki/{query}"))[0]
     time.sleep(0.5)
     while cur.lower() != "philosophy":
-        print(cur)
+        words.append(f"{cur} -> ")
         cur = children(requests.get(f"https://en.wikipedia.org/wiki/{cur}"))[0]
         time.sleep(0.5)
-    print(cur)
+    words.append(cur)
+    return "".join(words)
 
 
-chain("Alan_Watts")
-
-""" 
-output:
-
-Alan_Watts
-Buddhism
-American_English
-Variety_(linguistics)
-Sociolinguistics
-Society
-Social_group
-Social_science
-Branches_of_science
-Science
-Latin_language
-Classical_language
-Language
-Communication
-Academic_discipline
-Knowledge
-Fact
-Experience
-Consciousness
-Sentience
-Emotion
-Mental_state
-Mind
-Thought
-Ideas
-Philosophy """
+# print(chain("Alan Watts"))
+# print(chain("BTS"))
+# print(chain("Parasaurolophus"))
+# TODO: add cycle detection for examples like chain("s'more")
