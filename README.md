@@ -1,5 +1,5 @@
 # philosophy-chain
-When searching a query on wikipedia.org, recursively click the first link that is not a "Help" or "Citation Needed" page. This will _usually_ lead to the wikipedia page for [philosophy](https://en.wikipedia.org/wiki/Philosophy).
+When searching a query on [wikipedia.org](https://www.wikipedia.org/), recursively click the first link that is not a "Help" or "Citation Needed" page. This will _usually_ lead to the wikipedia page for [philosophy](https://en.wikipedia.org/wiki/Philosophy).
 
 # examples
 
