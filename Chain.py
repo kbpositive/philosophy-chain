@@ -40,10 +40,31 @@ def chain(query):
     print(cur)
 
 
-chain("Emotion")
+chain("Alan_Watts")
 
-""" output:
+""" 
+output:
 
+Alan_Watts
+Buddhism
+American_English
+Variety_(linguistics)
+Sociolinguistics
+Society
+Social_group
+Social_science
+Branches_of_science
+Science
+Latin_language
+Classical_language
+Language
+Communication
+Academic_discipline
+Knowledge
+Fact
+Experience
+Consciousness
+Sentience
 Emotion
 Mental_state
 Mind
