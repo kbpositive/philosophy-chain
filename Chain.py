@@ -25,6 +25,7 @@ class Philosophy_Tree:
             cur = cur[0]
         print(cur)
         if cur in self.memo:
+            self.memo[last].extend([cur, self.memo[cur]])
             return self.reduce_print(cur)
         self.memo[last].extend([cur, self.memo[cur]])
         last = cur
@@ -49,6 +50,8 @@ class Philosophy_Tree:
         return "".join(words)
 
     def reduce_print(self, query):
+        if not self.memo[query]:
+            return
         print(self.memo[query][0])
         cur = self.memo[query][1]
         while cur:
